@@ -8,7 +8,7 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (username === "admin" && password === "prudential") {
-        location.replace("https://forms.gle/ENyDup8vak9UYYER8");
+        location.replace("https://forms.gle/4jazHGVXL1MEyyha6");
     } 
     else if (username === "brother" && password === "bettertheman") {
         location.replace("https://drive.google.com/drive/folders/1OFn0KlvGjCR5Lw-b4iqfOx3x7eLGN_BA?usp=sharing");

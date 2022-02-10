@@ -8,10 +8,10 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (username === "admin" && password === "prudential") {
-        location.replace("https://www.alphasiguna.com/Admin.html");
+        location.replace("https://www.alphasiguna.com/brother-resources/Admin.html");
     } 
     else if (username === "brother" && password === "bettertheman") {
-        location.replace("https://www.alphasiguna.com/Admin.html");
+        location.replace("https://www.alphasiguna.com/brother-resources/Brothers.html");
     }
     else {
         loginErrorMsg.style.opacity = 1;
